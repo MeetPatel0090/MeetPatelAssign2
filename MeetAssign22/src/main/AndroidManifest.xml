@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MeetAssign2">
         <activity
-            android:name=".MainActivity"
+            android:name=".PatelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MeetActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
