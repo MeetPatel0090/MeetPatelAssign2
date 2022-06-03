@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">MeetAssign2</string>
     <string name="SplashImg">Image</string>
+    <string name="MenuItem1">Help</string>
+    <string name="MenuItem2">Rent</string>
+    <string name="MenuItem3">Home</string>
 </resources>

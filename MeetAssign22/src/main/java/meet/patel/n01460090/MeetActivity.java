@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-public class MeetActivity extends AppCompatActivity {
+public class MeetActivity extends MenuActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

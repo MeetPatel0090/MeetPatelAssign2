@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MeetAssign2">
         <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".PatelActivity"
             android:exported="false" />
         <activity
