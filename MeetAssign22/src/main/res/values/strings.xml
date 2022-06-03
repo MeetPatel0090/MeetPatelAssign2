@@ -1,7 +1,11 @@
+<!-- Meet Patel n01460090 -->
 <resources>
     <string name="app_name">MeetAssign2</string>
     <string name="SplashImg">Image</string>
     <string name="MenuItem1">Help</string>
     <string name="MenuItem2">Rent</string>
     <string name="MenuItem3">Home</string>
+    <string name="MainTextView">This app helps its clients to find the best home for themselves.</string>
+    <string name="MainButton">Enter</string>
+    <string name="CompanyName">LeaseOrRentHome Inc.</string>
 </resources>
