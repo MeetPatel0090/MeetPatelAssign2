@@ -8,4 +8,8 @@
     <string name="MainTextView">This app helps its clients to find the best home for themselves.</string>
     <string name="MainButton">Enter</string>
     <string name="CompanyName">LeaseOrRentHome Inc.</string>
+    <string name="radiobtn1">Apartment</string>
+    <string name="radiobtn2">Detached Home</string>
+    <string name="radiobtn3">Semi-detached Home</string>
+    <string name="RentTextView">Choose your Home type</string>
 </resources>
