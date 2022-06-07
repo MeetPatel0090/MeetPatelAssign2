@@ -10,6 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MeetAssign2">
         <activity
+            android:name=".SemiDetachedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetachedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ApartmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BackArrowActivity"
+            android:exported="false"
+            android:parentActivityName=".PatelActivity" />
+        <activity
             android:name=".RentActivity"
             android:exported="false" />
         <activity

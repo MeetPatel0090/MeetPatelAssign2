@@ -3,7 +3,7 @@
 
 package meet.patel.n01460090;
 
-import androidx.appcompat.app.AppCompatActivity;
+
 
 import android.content.Intent;
 import android.net.Uri;
@@ -12,7 +12,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class MenuActivity extends AppCompatActivity
+public class MenuActivity extends BackArrowActivity
 {
 
     @Override
@@ -47,8 +47,7 @@ public class MenuActivity extends AppCompatActivity
                 break;
 
             case R.id.MeetMenuItem3:
-                System.exit(0);
-                break;
+                gotomain();
 
             default:
                 return super.onOptionsItemSelected(menuitem);
@@ -70,6 +69,12 @@ public class MenuActivity extends AppCompatActivity
     {
         Uri uri = Uri.parse("tel:123-456-7890");
         Intent intent = new Intent(Intent.ACTION_DIAL,uri);
+        startActivity(intent);
+    }
+
+    private void gotomain()
+    {
+        Intent intent = new Intent(MenuActivity.this,PatelActivity.class);
         startActivity(intent);
     }
 

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetachedActivity"
+    android:background="#F8BBBB">
+
+    <TextView
+        android:id="@+id/MeetTextDetached"
+        android:layout_width="415dp"
+        android:layout_height="69dp"
+        android:text="@string/detachedHead"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:fontFamily="@font/exo_2_bold_italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/MeetScrollView2"
+        android:layout_width="410dp"
+        android:layout_height="542dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/MeetDetachedCheckBox1"
+                android:text="@string/detached_1"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/detachedimage1"
+                app:srcCompat="@drawable/detached1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="@string/address_123_king_street_toronto_nrent_per_month_3000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/MeetDetachedCheckBox2"
+                android:text="@string/detached_2"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="136dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/detachedimage2"
+                app:srcCompat="@drawable/detached2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="@string/address_234_queen_street_toronto_nrent_per_month_3500"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/MeetDetachedCheckBox3"
+                android:text="@string/detached_3"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="136dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/detachedimage3"
+                app:srcCompat="@drawable/detached3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="@string/address_56_uni_street_toronto_nrent_per_month_3400"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:layout_width="282dp"
+        android:layout_height="64dp"
+        android:id="@+id/MeetDetachedBtn"
+        android:text="@string/NextBtn"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,4 +12,38 @@
     <string name="radiobtn2">Detached Home</string>
     <string name="radiobtn3">Semi-detached Home</string>
     <string name="RentTextView">Choose your Home type</string>
+    <string name="SelectToast">You need to select one Option</string>
+    <string name="NextBtn">Next</string>
+    <string name="apartmentsHead">Apartments</string>
+    <string name="detachedHead">Detached Homes</string>
+    <string name="semidetachedHead">Semi Detached Homes</string>
+    <string name="apartment_1">Apartment-1</string>
+    <string name="apartment_2">Apartment-2</string>
+    <string name="apartment_3">Apartment-3</string>
+    <string name="detached_1">Detached Home-1</string>
+    <string name="detached_2">Detached Home-2</string>
+    <string name="detached_3">Detached Home-3</string>
+    <string name="semidetached_1">Semi Detached Home-1</string>
+    <string name="semidetached_2">Semi Detached Home-2</string>
+    <string name="semidetached_3">Semi Detached Home-3</string>
+    <string name="apartmentimage1">ApartmentImage1</string>
+    <string name="apartmentimage2">ApartmentImage2</string>
+    <string name="apartmentimage3">ApartmentImage3</string>
+    <string name="detachedimage1">DetachedImage1</string>
+    <string name="detachedimage2">DetachedImage2</string>
+    <string name="detachedimage3">DetachedImage3</string>
+    <string name="semidetachedimage1">SemiDetachedImage1</string>
+    <string name="semidetachedimage2">SemiDetachedImage2</string>
+    <string name="semidetachedimage3">SemiDetachedImage3</string>
+    <string name="address_123_blake_street_toronto_nrent_per_month_1200">Address: 123 Blake Street, Toronto \nRent(per month): $1200</string>
+    <string name="address_235_kirk_street_toronto_n_rent_per_month_1500">Address: 235 Kirk Street, Toronto \nRent(per month):$1500</string>
+    <string name="address_25_kim_street_toronto_n_rent_per_month_1350">Address: 25 Kim Street, Toronto \nRent(per month): $1350</string>
+    <string name="address_56_uni_street_toronto_nrent_per_month_3400">Address: 56 Uni Street, Toronto \nRent(per month): $3400</string>
+    <string name="address_234_queen_street_toronto_nrent_per_month_3500">Address: 234 Queen Street, Toronto \nRent(per month): $3500</string>
+    <string name="address_123_king_street_toronto_nrent_per_month_3000">Address: 123 King Street, Toronto \nRent(per month): $3000</string>
+    <string name="address_21_dark_street_toronto_nrent_per_month_2000">Address: 21 Dark Street, Toronto \nRent(per month): $2000</string>
+    <string name="address_78_white_street_toronto_nrent_per_month_2500">Address: 78 White Street, Toronto \nRent(per month): $2500</string>
+    <string name="address_36_madison_street_toronto_nrent_per_month_2300">Address: 36 Madison Street, Toronto \nRent(per month): $2300</string>
+
+
 </resources>
