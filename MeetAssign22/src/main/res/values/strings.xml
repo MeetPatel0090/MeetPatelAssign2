@@ -17,15 +17,15 @@
     <string name="apartmentsHead">Apartments</string>
     <string name="detachedHead">Detached Homes</string>
     <string name="semidetachedHead">Semi Detached Homes</string>
-    <string name="apartment_1">Apartment-1</string>
-    <string name="apartment_2">Apartment-2</string>
-    <string name="apartment_3">Apartment-3</string>
-    <string name="detached_1">Detached Home-1</string>
-    <string name="detached_2">Detached Home-2</string>
-    <string name="detached_3">Detached Home-3</string>
-    <string name="semidetached_1">Semi Detached Home-1</string>
-    <string name="semidetached_2">Semi Detached Home-2</string>
-    <string name="semidetached_3">Semi Detached Home-3</string>
+    <string name="apartment_1">Apartment 1</string>
+    <string name="apartment_2">Apartment 2</string>
+    <string name="apartment_3">Apartment 3</string>
+    <string name="detached_1">Detached Home 1</string>
+    <string name="detached_2">Detached Home 2</string>
+    <string name="detached_3">Detached Home 3</string>
+    <string name="semidetached_1">Semi Detached Home 1</string>
+    <string name="semidetached_2">Semi Detached Home 2</string>
+    <string name="semidetached_3">Semi Detached Home 3</string>
     <string name="apartmentimage1">ApartmentImage1</string>
     <string name="apartmentimage2">ApartmentImage2</string>
     <string name="apartmentimage3">ApartmentImage3</string>
@@ -44,6 +44,18 @@
     <string name="address_21_dark_street_toronto_nrent_per_month_2000">Address: 21 Dark Street, Toronto \nRent(per month): $2000</string>
     <string name="address_78_white_street_toronto_nrent_per_month_2500">Address: 78 White Street, Toronto \nRent(per month): $2500</string>
     <string name="address_36_madison_street_toronto_nrent_per_month_2300">Address: 36 Madison Street, Toronto \nRent(per month): $2300</string>
+    <string name="payment_screen_head">Payment Screen</string>
+    <string name="credit_card_number">Card#</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="regex">^[0-9]$</string>
+    <string name="firstNameError1">The First name must be 3 letters in length</string>
+    <string name="firstNameError2">The First name must not contain Numbers</string>
+    <string name="firstNameError3">Please Enter First Name</string>
+    <string name="lastNameError1">The Last name must be 3 letters in length</string>
+    <string name="lastNameError2">The Last name must not contain Numbers</string>
+    <string name="lastNameError3">Please Enter Last Name</string>
+    <string name="cardError">Please Enter Credit Card Number</string>
 
 
 </resources>

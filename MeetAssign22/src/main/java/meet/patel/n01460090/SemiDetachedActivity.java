@@ -2,6 +2,7 @@ package meet.patel.n01460090;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -28,8 +29,8 @@ public class SemiDetachedActivity extends MenuActivity {
 
                 if (semidetached1.isChecked() || semidetached2.isChecked() || semidetached3.isChecked())
                 {
-                    /*Intent i = new Intent(RentActivity.this, PaymentActivity.class);
-                    startActivity(i);*/
+                    Intent i = new Intent(SemiDetachedActivity.this, PaymentActivity.class);
+                    startActivity(i);
                 }
 
                 else

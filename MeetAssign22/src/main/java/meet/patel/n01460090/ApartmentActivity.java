@@ -30,8 +30,8 @@ public class ApartmentActivity extends MenuActivity {
 
                 if (apt1.isChecked() || apt2.isChecked() || apt3.isChecked())
                 {
-                    /*Intent i = new Intent(RentActivity.this, PaymentActivity.class);
-                    startActivity(i);*/
+                    Intent i = new Intent(ApartmentActivity.this, PaymentActivity.class);
+                    startActivity(i);
                 }
 
                 else

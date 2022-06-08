@@ -5,6 +5,7 @@ package meet.patel.n01460090;
 
 
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -12,7 +13,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class MenuActivity extends BackArrowActivity
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MenuActivity extends AppCompatActivity
 {
 
     @Override
@@ -20,7 +23,9 @@ public class MenuActivity extends BackArrowActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu)
@@ -48,6 +53,13 @@ public class MenuActivity extends BackArrowActivity
 
             case R.id.MeetMenuItem3:
                 gotomain();
+                break;
+
+            case android.R.id.home:
+                // todo: goto back activity from here
+
+                finish();
+                return true;
 
             default:
                 return super.onOptionsItemSelected(menuitem);
@@ -77,6 +89,8 @@ public class MenuActivity extends BackArrowActivity
         Intent intent = new Intent(MenuActivity.this,PatelActivity.class);
         startActivity(intent);
     }
+
+
 
 
 }

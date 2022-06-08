@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SemiDetachedActivity"
-    android:background="#F8BBBB">
+    android:background="#E4F0F6">
 
     <TextView
         android:id="@+id/MeetTextSemiDetached"
@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:lines="2"
                 android:text="@string/address_21_dark_street_toronto_nrent_per_month_2000"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
 
@@ -82,7 +82,7 @@
                 android:layout_height="wrap_content"
                 android:lines="2"
                 android:text="@string/address_78_white_street_toronto_nrent_per_month_2500"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
 
@@ -107,7 +107,7 @@
                 android:layout_height="wrap_content"
                 android:lines="2"
                 android:text="@string/address_36_madison_street_toronto_nrent_per_month_2300"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
 
@@ -122,6 +122,8 @@
         android:text="@string/NextBtn"
         android:textSize="30sp"
         android:textStyle="italic"
+        android:backgroundTint="#13324b"
+        android:textColor="#F8F9FA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

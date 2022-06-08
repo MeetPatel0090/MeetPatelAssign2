@@ -12,7 +12,7 @@
         android:id="@+id/MeetMenuItem2"
         android:title="@string/MenuItem2"
         app:showAsAction="always"
-        android:icon="@drawable/buildingicon"/>
+        android:icon="@drawable/buildingimage"/>
 
 
     <item
