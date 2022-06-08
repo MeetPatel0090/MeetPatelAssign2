@@ -1,4 +1,4 @@
-<!-- Meet Patel n01460090 -->
+<!-- Meet Patel n01460090 Section 0NB-->
 <resources>
     <string name="app_name">MeetAssign2</string>
     <string name="SplashImg">Image</string>
@@ -48,7 +48,6 @@
     <string name="credit_card_number">Card#</string>
     <string name="last_name">Last Name</string>
     <string name="first_name">First Name</string>
-    <string name="regex">^[0-9]$</string>
     <string name="firstNameError1">The First name must be 3 letters in length</string>
     <string name="firstNameError2">The First name must not contain Numbers</string>
     <string name="firstNameError3">Please Enter First Name</string>

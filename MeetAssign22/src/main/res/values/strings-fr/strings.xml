@@ -1,0 +1,60 @@
+<!-- Meet Patel n01460090 Section 0NB-->
+<resources>
+    <string name="app_name">MeetAssign2</string>
+    <string name="SplashImg">Image</string>
+    <string name="MenuItem1">Aide</string>
+    <string name="MenuItem2">Louer</string>
+    <string name="MenuItem3">Domicile</string>
+    <string name="MainTextView">Cette application aide ses clients à trouver la meilleure maison pour eux-mêmes</string>
+    <string name="MainButton">Entrer</string>
+    <string name="CompanyName">LeaseOrRentHome Inc.</string>
+    <string name="radiobtn1">Appartement</string>
+    <string name="radiobtn2">Maison individuelle</string>
+    <string name="radiobtn3">Maison jumelée</string>
+    <string name="RentTextView">Choisissez votre type de maison</string>
+    <string name="SelectToast">Vous devez sélectionner une option</string>
+    <string name="NextBtn">Prochain</string>
+    <string name="apartmentsHead">Appartements</string>
+    <string name="detachedHead">Maisons individuelles</string>
+    <string name="semidetachedHead">Maisons jumelées</string>
+    <string name="apartment_1">Appartement 1</string>
+    <string name="apartment_2">Appartement 2</string>
+    <string name="apartment_3">Appartement 3</string>
+    <string name="detached_1">Maison individuelle 1</string>
+    <string name="detached_2">Maison individuelle 2</string>
+    <string name="detached_3">Maison individuelle 3</string>
+    <string name="semidetached_1">Maison Jumelée 1</string>
+    <string name="semidetached_2">Maison Jumelée 2</string>
+    <string name="semidetached_3">Maison Jumelée 3</string>
+    <string name="apartmentimage1">Image de l’appartement1</string>
+    <string name="apartmentimage2">Image de l’appartement2</string>
+    <string name="apartmentimage3">Image de l’appartement3</string>
+    <string name="detachedimage1">Image détachée1</string>
+    <string name="detachedimage2">Image détachée2</string>
+    <string name="detachedimage3">Image détachée3</string>
+    <string name="semidetachedimage1">Image semi-détachée1</string>
+    <string name="semidetachedimage2">Image semi-détachée2</string>
+    <string name="semidetachedimage3">Image semi-détachée3</string>
+    <string name="address_123_blake_street_toronto_nrent_per_month_1200">Adresse: 123 Blake Street, Toronto \nLoyer (par mois): $1200</string>
+    <string name="address_235_kirk_street_toronto_n_rent_per_month_1500">Adresse: 235 Kirk Street, Toronto \nLoyer (par mois):$1500</string>
+    <string name="address_25_kim_street_toronto_n_rent_per_month_1350">Adresse: 25 Kim Street, Toronto \nLoyer (par mois): $1350</string>
+    <string name="address_56_uni_street_toronto_nrent_per_month_3400">Adresse: 56 Uni Street, Toronto \nLoyer (par mois): $3400</string>
+    <string name="address_234_queen_street_toronto_nrent_per_month_3500">Adresse: 234 Queen Street, Toronto \nLoyer (par mois): $3500</string>
+    <string name="address_123_king_street_toronto_nrent_per_month_3000">Adresse: 123 King Street, Toronto \nLoyer (par mois): $3000</string>
+    <string name="address_21_dark_street_toronto_nrent_per_month_2000">Adresse: 21 Dark Street, Toronto \nLoyer (par mois): $2000</string>
+    <string name="address_78_white_street_toronto_nrent_per_month_2500">Adresse: 78 White Street, Toronto \nLoyer (par mois): $2500</string>
+    <string name="address_36_madison_street_toronto_nrent_per_month_2300">Adresse: 36 Madison Street, Toronto \nLoyer (par mois): $2300</string>
+    <string name="payment_screen_head">Écran de paiement</string>
+    <string name="credit_card_number">Carte#</string>
+    <string name="last_name">Nom</string>
+    <string name="first_name">Prénom</string>
+    <string name="firstNameError1">Le prénom doit comporter 3 lettres</string>
+    <string name="firstNameError2">Le prénom ne doit pas contenir de nombres</string>
+    <string name="firstNameError3">Veuillez entrer le prénom</string>
+    <string name="lastNameError1">Le nom de famille doit comporter 3 lettres</string>
+    <string name="lastNameError2">Le nom de famille ne doit pas contenir de nombres</string>
+    <string name="lastNameError3">Veuillez entrer le nom de famille</string>
+    <string name="cardError">Veuillez entrer le numéro de carte de crédit</string>
+
+
+</resources>
