@@ -26,10 +26,10 @@
             android:exported="false" />
         <activity
             android:name=".MenuActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".PatelActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".MeetActivity"
             android:exported="true">
